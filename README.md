@@ -40,9 +40,9 @@ Due to platform specific UI rendering, CSS & App are not shared ; they are just 
 Screenshots
 ===========
 
-![Screenshot 1](foo)
-![Screenshot 2](foo)
-![Screenshot 3](foo)
+![Screenshot 1 - all](https://github.com/og-pr/public_ticket.520/blob/master/tenta/_docs/monorepo_all.png)
+![Screenshot 2 - ios](https://github.com/og-pr/public_ticket.520/blob/master/tenta/_docs/monorepo_ios.png)
+![Screenshot 3 - android](https://github.com/og-pr/public_ticket.520/blob/master/tenta/_docs/monorepo_android.png)
 
 Notes
 =====
