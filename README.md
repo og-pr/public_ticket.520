@@ -48,9 +48,10 @@ Notes
 =====
 Since this is a simple , basic monorepo (for frontend development)...
 
-* Lerna or Yarn workspaces not used ; there is only 1 node_modules folder
-* State / Props / Redux are not used for any platform. You can add them or any other package, as needed
-* Examples of Shared code = a) app/component/App , b) app/component/Title , c) common/example.js , + d) common/nativeStyles.js.
+* Lerna or Yarn workspaces are not used ; there is only 1 node_modules folder
+* State / Props / Redux are not used. You can add them or any other package, as needed
+* Examples of Shared code = a) app/component/App , b) app/component/Title , c) common/example.js , + d) common/nativeStyles.js
+* If you want to create a NEW monorepo from scratch, start with React Native and use this repo as a model for all files & folders
 
 Inspiration
 ===========
