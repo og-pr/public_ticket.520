@@ -1,7 +1,7 @@
 React-Native Monorepo
 =================
 This is a simple monorepo. The app is called "tenta" (Latin for try or test). It shows how to share code between different platforms 
-(web, Android, & iOS) when using React-Native & React-Native-Web. 
+(Web, Android, & iOS) when using React-Native & React-Native-Web. 
 
 The key to code sharing is React-Native's [Platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions). React-Native will detect when the extension ```.native.js``` , ```.ios.js``` or ```.android.js``` is used and load the relevant platform file when required.
 
