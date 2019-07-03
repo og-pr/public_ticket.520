@@ -3,6 +3,10 @@
 .AppleDouble
 .LSOverride
 
+# Other
+.buckconfig
+yarn.lock
+
 # Logs
 logs
 *.log
