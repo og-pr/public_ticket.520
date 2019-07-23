@@ -32,11 +32,6 @@ For each platform, from the root directory, do
 ### iOS
 * ```react-native run-ios``` or open ```ios/tenta.xcodeproj``` with XCode and hit, Run
 
-### For All
-* 1 element (a button), native to each platform, is used ; it is attached to 1 function.  
-* 1 component (title) & 1 function (just logs console message) is shared for all 3 platforms.  
-* Due to platform specific UI rendering, CSS & App are not shared ; they are just shared between iOS & Android.  
-
 Screenshots
 ===========
 
@@ -44,7 +39,13 @@ Screenshots
 ![Screenshot 2 - ios](https://github.com/og-pr/public_ticket.520/blob/master/tenta/_docs/monorepo_ios.png)
 ![Screenshot 3 - android](https://github.com/og-pr/public_ticket.520/blob/master/tenta/_docs/monorepo_android.png)
 
-Notes
+Notes - Development 
+===========
+* 1 element (a button), native to each platform, is used ; it is attached to 1 function.  
+* 1 component (title) & 1 function (just logs console message) is shared for all 3 platforms.  
+* Due to platform specific UI rendering, CSS & App are not shared ; they are just shared between iOS & Android.  
+
+Notes - Miscellaneous 
 =====
 Since this is a simple, basic monorepo for frontend development...
 
