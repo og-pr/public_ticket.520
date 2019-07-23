@@ -1,4 +1,4 @@
-React-Native Monorepo
+React-Native Monorepo 1
 =================
 This is a simple monorepo. The app is called "tenta" (Latin for try or test). It shows how to share code between different platforms 
 (Web, Android, & iOS) when using React-Native & React-Native-Web. 
