@@ -29,7 +29,7 @@ For each platform, from the root directory, do
 * ```react-native run-android```
 
 ### iOS
-* ```react-native run-ios``` or open ```ios/tenta.xcodeproj``` with XCode and hit, Run
+* ```react-native run-ios``` or open ```ios/tenta.xcodeproj``` with Xcode
 
 Screenshots
 ===========
