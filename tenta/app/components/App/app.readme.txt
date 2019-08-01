@@ -1,0 +1,7 @@
+App Component Folder
+
+* AppView.js is for Web
+
+* AppView.android.js + AppView.ios.js are for Mobile Platforms (Android + iOS)
+  In these example files, the change specific to each platform is for UI / CSS. 
+  You can create 1 .native.js file when no specific device features are needed.
