@@ -1,10 +1,10 @@
 React-Native Monorepo
 =================
-This is a simple, basic monorepo for frontend development. It is a template or starter kit to share code between different platforms (Web, Android, & iOS) when using React-Native & React-Native-Web. 
+This is a simple, basic monorepo for frontend development using React-Native & React-Native-Web. It is a template or starter kit to share code between different platforms (Web, Android, & iOS).
 
-The repo creates a generic app called "tenta" (Latin for try or test) from shared code. The key to code sharing is React-Native's [Platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions). React-Native will detect when the extension ```.native.js``` , ```.ios.js``` or ```.android.js``` is used and load the relevant platform file when required.
+The repo creates a generic app called "tenta" (Latin for try or test) from shared code. The key to code sharing is React-Native's [Platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions). The extensions are ```.native.js``` , ```.ios.js``` or ```.android.js``` and when used, the relevant platform file is compiled.
 
-The main benefit of monorepos is to share application logic while keeping the rendering of individual components unique to each platform. Development is mobile-first AND then webapp.
+The main benefit of any monorepo is to share application logic. Another benefit is the rendering of individual components unique to each platform. Development is mobile-first AND then webapp.
 
 Installation
 ============
