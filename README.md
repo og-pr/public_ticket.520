@@ -1,8 +1,8 @@
-React-Native Monorepo 1
+React-Native Monorepo
 =================
-This is a simple monorepo. The app is called "tenta" (Latin for try or test). It shows how to share code between different platforms (Web, Android, & iOS) when using React-Native & React-Native-Web. 
+This is a simple, basic monorepo for frontend development. It is a template or starter kit to share code between different platforms (Web, Android, & iOS) when using React-Native & React-Native-Web. 
 
-The key to code sharing is React-Native's [Platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions). React-Native will detect when the extension ```.native.js``` , ```.ios.js``` or ```.android.js``` is used and load the relevant platform file when required.
+The repo creates a generic app called "tenta" (Latin for try or test) from shared code. The key to code sharing is React-Native's [Platform-specific extensions](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-specific-extensions). React-Native will detect when the extension ```.native.js``` , ```.ios.js``` or ```.android.js``` is used and load the relevant platform file when required.
 
 The main benefit of monorepos is to share application logic while keeping the rendering of individual components unique to each platform. Development is mobile-first AND then webapp.
 
@@ -46,8 +46,6 @@ Notes - Development
 
 Notes - Miscellaneous 
 =====
-Since this is a simple, basic monorepo for frontend development...
-
 * Lerna or Yarn Workspaces is not used ; there is only 1 ```node_modules``` folder
 * State / Props / Redux are not used. You can add them or any other package, as needed
 * Examples of Shared Code = a) ```app/component/App``` , b) ```app/component/Title``` , c) ```common/example.js``` , + d) ```common/nativeStyles.js``` . If you want to create a NEW monorepo from scratch, start with React Native and use this repo as a model for all files & folders
