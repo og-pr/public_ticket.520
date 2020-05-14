@@ -1,4 +1,4 @@
-React-Native Monorepo
+React-Native SimpleMonorepo
 =================
 This is a simple, basic monorepo for frontend development using React-Native & React-Native-Web. It is a template or starter kit to share code between different platforms (Web, Android, & iOS).
 
